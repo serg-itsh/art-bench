@@ -5,7 +5,12 @@
 }
 
 
-
+.wrapper-form{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
 
 
 .title-form {
@@ -18,10 +23,11 @@
 
 .text-form {
   color: #f6f6f6;
+  max-width: 500px;
+  text-align: center;
+  padding-bottom: 20px;
   font-size: 12px;
   font-weight: 100;
-
-  padding-bottom: 20px;
 }
 
 // ========== form-block =========
